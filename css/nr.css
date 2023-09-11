@@ -1,0 +1,158 @@
+a:link {
+	color: #231e23;
+	text-decoration: none;
+}
+a:visited {
+	color: #1111;
+	text-decoration: none;
+}
+a:hover {
+	color: #544354;
+	text-decoration: none;
+}
+/* 字体样式 */
+.style1 {color: #c2b9b9}
+.style3 {color: #a067a6; font-weight: bold; }
+.bg1{
+	background-color: #8761af;
+}
+.bt{
+	font-size: 20px;
+	background-color: rgb(205, 193, 209);
+	width: 500px;
+}
+
+.btl {
+	width: 500px;
+	height: 30px;
+	background-color: rgb(225, 202, 232);
+	font-size: 20px;
+}
+/* 背景图 */
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url(../ice-cream/背景图4.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/* 文字 */
+td{
+	text-align: center;
+    background-color: #766d7f;
+    font-size: 10px;
+    font-weight: 100;
+}
+.bj{
+	background-color: #6540a0;
+}
+.wc{
+	background-color: rgb(127, 39, 195);
+}
+.ab{
+    font-size: 30px;
+}
+.ml{
+	background-color: #7e488d;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 820px;
+	width: 200px;
+	position: fixed;
+	left: 0px;
+	top: 150px;
+    font-size: 20px;
+}
+.jj{
+    font-size: 15px;
+}
+.zz{
+    font-size: 10px;
+}
+.tt{
+	position: absolute;
+	top: 100px;
+}
+.bu{
+	width: 55px;
+	height: 20px;
+	background-color: #8a9c52;
+    position: fixed;
+	right: 100px;
+	bottom: 0;
+}
+/* 目录平常样式 */
+.shell {
+    width: 60px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #766d7f;
+    border-radius: 10px;
+    transition: .3s;
+    overflow: hidden;
+	position: fixed;
+	left: 0;
+	top: 10px;
+}
+
+.box {
+    display: block;
+    height: 15%;
+    width: 85%;
+    margin: 0px;
+    border-radius: 5px;
+    position: relative;
+    transition: .3s;
+    color: rgb(231, 163, 241);
+}
+/* 添加分割线 */
+.box:nth-child(0)::before,
+.box:nth-child(40)::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(66, 38, 67);
+    position: absolute;
+    bottom: -10px;
+	overflow-y: scroll;
+}
+/* 目录字体样式 */
+.box span{
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font: 300 15px '';
+    opacity: 0;
+    transition: .1s;
+}
+/* 鼠标悬浮时样式 */
+.shell:hover{
+    width: 20%;
+}
+.box:hover{
+    background-color: rgb(189, 92, 182);
+}
+/* 鼠标悬浮时字体 */
+.shell:hover span{
+    opacity: 1;
+}
+.box:hover{
+    color: #fff;
+}
+#wz{
+	color: rgb(190, 135, 207);
+}
+#wzll{
+	color: rgb(190, 135, 207);
+	font-weight: 700;
+}
+#wzl{
+	color: rgb(190, 135, 207);
+	font-weight: 500;
+}
